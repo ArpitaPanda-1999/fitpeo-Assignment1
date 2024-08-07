@@ -12,10 +12,487 @@ code {
     monospace;
 }
 
+#logo-A{
+  color: rgb(138, 138, 254);
+  margin-left: 35px;
+}
+
+#side-icon{
+  color: rgba(161, 157, 173, 0.686);
+}
+
+#side-icon:hover{
+  color: rgb(138, 138, 254);
+  border-left: inset 5px rgb(138, 138, 254);
+}
+
 #sidebar{
   background-color: rgb(48, 48, 48);
 }
 
 #dropdown{
   background-color: rgb(48, 48, 48);
+}
+
+#navbar{
+  background-color: rgb(48, 48, 48);
+}
+
+#border-search{
+  border-left: none;
+}
+
+#nav-icon{
+  background-color: rgba(164, 164, 164, 0.301);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+#basket{
+  color: rgb(2, 2, 250);
+  padding: 8px;
+}
+
+.col-lg-3 #basket{
+  background-color: rgba(0, 0, 255, 0.3);
+  opacity: 1.0;
+  border-radius: 20%;
+}
+
+#shopping{
+  color: lightseagreen;
+  padding: 8px;
+}
+
+.col-lg-3 #shopping{
+  background-color: rgba(0, 255, 0, 0.168);
+  opacity: 1.0;
+  border-radius: 20%;
+}
+
+#wallet{
+  color: orangered;
+  padding: 8px;
+}
+
+.col-lg-3 #wallet{
+  background-color: rgba(255, 0, 0, 0.3);
+  opacity: 1.0;
+  border-radius: 20%;
+}
+
+#arrow{
+  color: rgb(255, 0, 136);
+  padding: 8px;
+}
+
+.col-lg-3 #arrow{
+  background-color: rgba(255, 0, 136, 0.3);
+  opacity: 1.0;
+  border-radius: 20%;
+}
+
+.box{
+  background-color: rgb(48, 48, 48);
+  padding : 15px;
+  border-radius: 5px;
+}
+
+.box h6{
+  color: white;
+  font-size: 13px;
+  font-family: 'Roboto', sans-serif;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.box h5{
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.first-row{
+  background-color: rgb(48, 48, 48);
+  border-radius: 5px;
+  padding: 13px 0px 0px 25px;
+}
+
+.first-row h6{
+  font-size: 10px;
+}
+
+.first-row h3{
+  font-weight: 800;
+}
+
+#pie-animate{
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 16px solid rgb(138, 138, 254);
+  border-left: 16px solid rgba(138, 138, 254, 0.222); 
+}
+
+#pie-percent{
+  margin-top: revert;
+  margin-left: 16px;
+  margin-top: 5px;
+  font-weight: 700;
+}
+
+#pie-percent1{
+  font-size: 10px;
+  margin-top: revert;
+  margin-left: 16px;
+  margin-top: -15px;
+}
+
+.graph{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 115px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -30px;
+}
+
+.graph1{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 125px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -19px;
+}
+
+.graph2{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 115px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -30px;
+}
+
+.graph3{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 64px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -80px;
+}
+
+.graph4{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 104px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -40px;
+}
+
+.graph5{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 84px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -60px;
+}
+
+.graph6{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 45px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -100px;
+}
+
+.graph7{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 144px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -1px;
+}
+
+.graph8{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 94px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -50px;
+}
+
+.graph9{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 98px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -47px;
+}
+
+.graph10{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 58px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -86px;
+}
+
+.graph11{
+  background-color: rgb(138, 138, 254);
+  width: 20px;
+  height: 123px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  position: relative;
+  bottom: -21px;
+}
+
+.graph-text{
+  position: relative;
+  bottom: -35px;
+}
+
+.graph-text1{
+  position: relative;
+  bottom: -22px;
+}
+
+.graph-text2{
+  position: relative;
+  bottom: -33px;
+}
+
+.graph-text3{
+  position: relative;
+  bottom: -82px;
+}
+
+.graph-text4{
+  position: relative;
+  bottom: -41px;
+}
+
+.graph-text5{
+  position: relative;
+  bottom: -62px;
+}
+
+.graph-text6{
+  position: relative;
+  bottom: -102px;
+}
+
+.graph-text7{
+  position: relative;
+  bottom: -3px;
+}
+
+.graph-text8{
+  position: relative;
+  bottom: -53px;
+}
+
+.graph-text9{
+  position: relative;
+  bottom: -48px;
+}
+
+.graph-text10{
+  position: relative;
+  bottom: -88px;
+}
+
+.graph-text11{
+  position: relative;
+  bottom: -23px;
+}
+
+#hr-line{
+  position: relative;
+  bottom: 40px
+}
+
+#start-second{
+  background-color: rgb(48, 48, 48);
+  padding: 20px;
+  border-radius: 7px;
+}
+
+#target-start{
+  border-radius: 7px;
+  background-color: rgb(48, 48, 48);
+}
+
+#target{
+  color: orangered; 
+  margin-top: 15px;
+}
+
+.target-icon{
+  background-color: rgba(255, 0, 0, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#wallet1{
+  color: rgb(72, 91, 234); 
+  margin-top: 15px;
+}
+
+.wallet1-icon{
+  background-color: rgba(0, 0, 255, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#dish{
+  color: rgb(21, 105, 74); 
+  margin-top: 15px;
+}
+
+.dish-icon{
+  background-color: rgba(0, 128, 0, 0.3);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+#side-arrow{
+  color: rgb(176, 171, 171);
+  position: relative;
+  top: 15px;
+  border-radius: 50%;
+}
+
+#start-third{
+  background-color: rgb(48, 48, 48);
+  padding: 20px;
+  border-radius: 7px;
+}
+
+.del-button{
+  background-color: #008000ab;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.pen-button{
+  background-color: #fc03035c;
+  padding: 5px;
+  border-radius: 15px;
+}
+
+.last-row span{
+  font-weight: 700;
+  margin-right: 104px;
+}
+
+.last-row .name{
+  margin-right: 260px;
+}
+
+.last-row1 span{
+  font-weight: 700;
+  margin-right: 105px;
+}
+
+.last-row1 .name{
+  margin-right: 225px;
+}
+
+.last-row2 span{
+  font-weight: 700;
+  margin-right: 105px;
+}
+
+.last-row2 .name{
+  margin-right: 177px;
+}
+
+.last-row3 span{
+  font-weight: 700;
+  margin-right: 105px;
+}
+
+.last-row3 .name{
+  margin-right: 215px;
+}
+
+.last-row4 span{
+  font-weight: 700;
+  margin-right: 105px;
+}
+
+.last-row4 .name{
+  margin-right: 187px;
+}
+
+.last-row5 span{
+  font-weight: 700;
+  margin-right: 105px;
+}
+
+.last-row5 .name{
+  margin-right: 196px;
+}
+
+.last-row6 span{
+  font-weight: 700;
+  margin-right: 105px;
+} 
+
+.last-row6 .name{
+  margin-right: 187px;
+}
+
+.last-row7 span{
+  font-weight: 700;
+  margin-right: 105px;
+}
+
+.last-row7 .name{
+  margin-right: 228px;
+}
+
+.last-row8 span{
+  font-weight: 700;
+  margin-right: 105px;
+}
+
+.last-row8 .name{
+  margin-right: 225px;
+}
+
+#profile-img{
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+}
+
+.final-row{
+  background-color: rgb(48, 48, 48);
+  padding: 20px;
+  border-radius: 7px;
 }
